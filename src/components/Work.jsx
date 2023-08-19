@@ -2,8 +2,7 @@ import React from 'react';
 import Quiz from '../assets/Quiz.jpeg';
 import Weather from '../assets/Weather.jpeg';
 import Restaurant from '../assets/Restaurant.jpeg';
-import TextUtils from '../assets/TextUtils.jpeg';
-
+import TextUtils from '../assets/TextUtils.jpeg'
 
 const Work = () => {
   return (
@@ -55,7 +54,7 @@ const Work = () => {
                 Weather Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='https://startling-sopapillas-3d0771.netlify.app/'>
+                <a href='https://flourishing-madeleine-c882a3.netlify.app/'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
