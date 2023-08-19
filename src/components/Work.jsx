@@ -2,6 +2,8 @@ import React from 'react';
 import Quiz from '../assets/Quiz.jpeg';
 import Weather from '../assets/Weather.jpeg';
 import Restaurant from '../assets/Restaurant.jpeg';
+import TextUtils from '../assets/TextUtils.jpeg';
+
 
 const Work = () => {
   return (
@@ -33,7 +35,7 @@ const Work = () => {
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/BhuwanPant/quiz-main'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -53,12 +55,37 @@ const Work = () => {
                 Weather Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://startling-sopapillas-3d0771.netlify.app/'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/BhuwanPant/weather'>
+                  <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          {/* Grid Item */}
+          <div
+            style={{ backgroundImage: `url(${TextUtils})` }}
+            className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div'
+          >
+            {/* Hover Effects */}
+            <div className='opacity-0 group-hover:opacity-100'>
+              <span className='text-xl font-bold text-white tracking-wider'>
+                Text-utility App
+              </span>
+              <div className='pt-8 text-center'>
+                <a href='https://dulcet-empanada-045eaf.netlify.app/'>
+                  <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
+                    Demo
+                  </button>
+                </a>
+                <a href='https://github.com/BhuwanPant/text-utils'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
@@ -78,12 +105,12 @@ const Work = () => {
                 Restaurant Application
               </span>
               <div className='pt-8 text-center'>
-                <a href='/'>
+                <a href='https://luxury-jelly-d9f853.netlify.app/'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Demo
                   </button>
                 </a>
-                <a href='/'>
+                <a href='https://github.com/BhuwanPant/Restaurant-main'>
                   <button className='text-center rounded-lg px-3 py-2 m-2 bg-white text-gray-700 font-bold text-lg'>
                     Code
                   </button>
